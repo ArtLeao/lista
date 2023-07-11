@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fila</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/style.css">
+    <!-- JQuery -->
+    <script src="https://code.jquery.com/jquery-3.7.0.min.js" integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g="
+    crossorigin="anonymous"></script>
+    <script src="./js/adicionar.js" defer></script>
+</head>
+<body>
+    <div class="centralizar">
+        <div class="container-lg border border-black rounded w-25" style="min-width: 400px; background-color: bisque">
+            <div class="text-center">
+                <h1 class="mb-4">Lista</h1>
+            </div>
+            <form id="nao_enviar">
+                <div>
+                    <label for="ad_pessoa" class="form-label">Adicione uma pessoa na lista</label>
+                </div>
+                <div class="flex">
+                    <input type="text" id="ad_pessoa" placeholder="Ex:João" autofocus>
+                    <button class="btn btn-primary" id="adicionar" type="submit">Adicionar</button>
+                </div>
+            </form>
+            <hr>
+            <div class="pessoas">
+                <ul>
+                    <li>Anderson</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+</body>
+</html>
