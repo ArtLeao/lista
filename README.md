@@ -16,7 +16,7 @@ No terminal, clone o projeto:
 
 > git clone https://github.com/ArtLeao/lista.git
 
-Agora você pode entrar na pasta e executar os arquivos usando um editor de código
+Agora você pode entrar na pasta e executar os arquivos usando um editor de código.
 
 ### Licença
 
